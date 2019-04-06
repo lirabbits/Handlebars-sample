@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "gulp"
+    "start": "gulp html; gulp watch"
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +14,7 @@
     "@babel/preset-env": "^7.4.3",
     "@babel/register": "^7.4.0",
     "gulp": "^4.0.0",
+    "gulp-changed": "^3.2.0",
     "lodash": "^4.17.11"
   }
 }
