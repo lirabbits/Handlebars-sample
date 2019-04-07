@@ -13,7 +13,7 @@ const tasks = {html};
 _.forEach(tasks, (val, key) => task(key, val));
 
 /**
- * broserSync
+ * browserSync
  */
 task('bs', () => bs({server: './dest'}));
 task('reload', done => {
